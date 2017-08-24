@@ -82,7 +82,7 @@ def writeinFile(n,s,a,c,b):
         n = n[0]
         
     s = s[0]
-    filename = 'No：'+str(b)+'：'+n+'.txt'
+    filename = 'articles/No：'+str(b)+'：'+n+'.txt'
     #print(filename)
     try:
         with open(filename,'w',encoding='utf-8') as file:
